@@ -1,63 +1,56 @@
-# 🌿 Impacto das Queimadas na Mortalidade por Doenças Respiratórias no Estado do Amazonas: Uma Análise com Dados de 2023
+# 🔥 Impacto das Queimadas na Mortalidade por Doenças Respiratórias no Amazonas
 
-## 📌 Descrição do Projeto
+## 🧭 Objetivo
 
-Este projeto tem como objetivo investigar a relação entre a ocorrência de queimadas e a mortalidade por doenças respiratórias no estado do Amazonas no ano de 2023. A análise utiliza duas bases de dados principais:
-
-- **Base de Queimadas:** contendo registros dos focos ativos de incêndio no estado do Amazonas.
-- **Base de Mortalidade:** contendo registros de óbitos, incluindo a causa básica do óbito (campo `CAUSABAS`) conforme codificação CID-10.
-
-## 🧾 CID-10: Doenças Respiratórias Relevantes
-
-Foi realizado um estudo para identificação dos códigos da Classificação Internacional de Doenças (CID-10) relacionados às doenças respiratórias com maior potencial de agravamento devido à poluição gerada por queimadas. Os seguintes grupos foram considerados:
-
-- `J00–J06`: Infecções agudas das vias aéreas superiores (rinite, laringite, sinusite, etc.)
-- `J12–J18`: Pneumonias
-- `J20–J22`: Outras infecções respiratórias agudas das vias inferiores
-- `J40–J47`: Doenças respiratórias obstrutivas crônicas (bronquites, asma, DPOC)
-- `J00–J99`: Intervalo completo de doenças respiratórias (utilizado como filtro geral)
-
-## 🎯 Objetivo da Análise
-
-Avaliar a existência de correlação temporal e espacial entre:
-
-- O número de focos de queimadas registrados no Amazonas;
-- E o número de óbitos causados por doenças respiratórias (com base no CID-10).
-
-## 🧪 Metodologia
-
-1. **Filtragem dos dados de mortalidade** para manter apenas os óbitos com causa básica (CAUSABAS) no intervalo `J00–J99`.
-2. **Tratamento e limpeza das datas** para alinhamento temporal entre as duas bases.
-3. **Análise exploratória e visualização** dos dados por região, mês e tipo de doença.
-4. **Avaliação de correlação estatística** entre a quantidade de queimadas e a mortalidade por doenças respiratórias.
-
-## 📁 Estrutura dos Dados
-
-### Base de Mortalidade (exemplo de colunas relevantes)
-
-- `DTOBITO`: Data do óbito
-- `CAUSABAS`: Causa básica do óbito (CID-10)
-- `CODMUNOCOR`: Código do município de ocorrência
-- `SEXO`, `IDADE`, `RACACOR`, `ESC`: Variáveis demográficas
-
-### Base de Queimadas
-
-- `data`: Data do foco
-- `estado`, `municipio`: Localização
-- `latitude`, `longitude`: Coordenadas
-- `satélite`, `bioma`, `tipo_foco`: Metadados ambientais
-
-## 📈 Resultados Esperados
-
-- Gráficos temporais com a evolução de queimadas e óbitos por doenças respiratórias
-- Análises de correlação entre os eventos ambientais e os efeitos na saúde
-- Identificação de períodos críticos de atenção à saúde pública no Amazonas
-
-## 👩‍🔬 Contribuição
-
-Este projeto visa contribuir para a compreensão dos efeitos ambientais na saúde da população amazônica, auxiliando gestores públicos e pesquisadores na formulação de políticas preventivas e campanhas de conscientização.
+Este projeto visa **investigar a relação entre queimadas e a mortalidade por doenças respiratórias no estado do Amazonas**, usando dados públicos de focos de incêndio e registros de óbitos. A partir de técnicas de pré-processamento e análise exploratória de dados, buscamos compreender como o aumento das queimadas pode influenciar a saúde respiratória da população.
 
 ---
 
+## 📊 Análises Realizadas
 
+1. **Correlação Temporal entre Queimadas e Óbitos Respiratórios**
+   - Identificar se existe aumento simultâneo no número de focos de queimadas e óbitos por doenças respiratórias ao longo do tempo.
+   - Avaliação mensal e anual dos dois fenômenos.
 
+2. **Distribuição por Município**
+   - Verificar **quais municípios concentram mais queimadas** e se estes coincidem com maior mortalidade respiratória.
+   - Geração de mapas e gráficos regionais para visualização geográfica.
+
+3. **Análise de Risco por Ano e Mês**
+   - Detectar **períodos críticos do ano** com maior número de queimadas e óbitos.
+   - Essa análise permite apoiar políticas públicas e ações de prevenção.
+
+---
+
+## 📁 Dados Utilizados
+
+### 🟤 Base de Mortalidade (SIM - Ministério da Saúde)
+- Registros de óbitos de 2023 no estado do Amazonas.
+- Foco em causas respiratórias segundo a **CID-10** (J00 a J99).
+- Campos importantes: `DTOBITO`, `CAUSABAS`, `CODMUNOCOR`, `SEXO`, `IDADE`.
+
+### 🔥 Base de Queimadas (INPE - Programa Queimadas)
+- Registros de focos de incêndio detectados via satélite no Amazonas (2023).
+- Campos importantes: `DataHora`, `Municipio`, `Latitude`, `Longitude`, `FRP`, `Bioma`.
+
+---
+
+## 🛡️ Medidas de Proteção para a População
+
+Com base nas análises, recomenda-se que **durante os meses de maior risco** (determinados pela combinação entre queimadas e mortalidade):
+
+---
+
+## 🧪 Metodologia
+
+- Pré-processamento de dados com `pandas` e `datetime`.
+- Filtragem de registros respiratórios (CID-10: J00 a J99).
+- Conversão e padronização de campos temporais e geográficos.
+- Análise estatística e visual com Python (`matplotlib`, `seaborn`, `folium`).
+
+---
+
+## 👩‍🔬 Autoria
+
+- **Maria Isabel Nicolau (Bel)**  
+- Projeto para Ciência de Dados Ambiental e Saúde Pública
