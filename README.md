@@ -1,56 +1,63 @@
-# 🔥 Impacto das Queimadas na Mortalidade por Doenças Respiratórias no Amazonas
+# Amazônia em Chamas: Como o Desmatamento e os Incêndios Afetam a Saúde Respiratória no Amazonas
 
-## 🧭 Objetivo
+## 📄 Sobre o Projeto
 
-Este projeto visa **investigar a relação entre queimadas e a mortalidade por doenças respiratórias no estado do Amazonas**, usando dados públicos de focos de incêndio e registros de óbitos. A partir de técnicas de pré-processamento e análise exploratória de dados, buscamos compreender como o aumento das queimadas pode influenciar a saúde respiratória da população.
+Este projeto integra dados públicos para construir uma planilha unificada que correlaciona:
+- Mortalidade por doenças respiratórias;
+- Indicadores de queimadas (dias sem chuva, precipitação, risco de fogo, FRP);
+- Área desmatada por município.
 
----
+O objetivo é analisar os impactos ambientais e de saúde nas populações do estado do Amazonas, buscando revelar padrões temporais e espaciais entre desmatamento, incêndios e efeitos respiratórios.
 
-## 📊 Análises Realizadas
-
-1. **Correlação Temporal entre Queimadas e Óbitos Respiratórios**
-   - Identificar se existe aumento simultâneo no número de focos de queimadas e óbitos por doenças respiratórias ao longo do tempo.
-   - Avaliação mensal e anual dos dois fenômenos.
-
-2. **Distribuição por Município**
-   - Verificar **quais municípios concentram mais queimadas** e se estes coincidem com maior mortalidade respiratória.
-   - Geração de mapas e gráficos regionais para visualização geográfica.
-
-3. **Análise de Risco por Ano e Mês**
-   - Detectar **períodos críticos do ano** com maior número de queimadas e óbitos.
-   - Essa análise permite apoiar políticas públicas e ações de prevenção.
+O projeto se inspira em estudos recentes que mostram como queimadas e poluição atmosférica elevam hospitalizações, aumentam taxas de morbimortalidade e agravam condições pulmonares, especialmente em populações vulneráveis.
 
 ---
 
-## 📁 Dados Utilizados
+## 📂 Dados Utilizados
 
-### 🟤 Base de Mortalidade (SIM - Ministério da Saúde)
-- Registros de óbitos de 2023 no estado do Amazonas.
-- Foco em causas respiratórias segundo a **CID-10** (J00 a J99).
-- Campos importantes: `DTOBITO`, `CAUSABAS`, `CODMUNOCOR`, `SEXO`, `IDADE`.
+- `desmatamento.csv`: área desmatada anual por município.
+- `mortalidade_unificada.csv`: mortes mensais por doenças respiratórias por município.
+- `queimadas_unificadas.csv`: métricas mensais de queimadas por município (dias sem chuva, precipitação, risco de fogo, FRP).
 
-### 🔥 Base de Queimadas (INPE - Programa Queimadas)
-- Registros de focos de incêndio detectados via satélite no Amazonas (2023).
-- Campos importantes: `DataHora`, `Municipio`, `Latitude`, `Longitude`, `FRP`, `Bioma`.
+Os dados foram integrados em uma única tabela final `planilha_unificada.csv`, contendo:
+`ano`, `mês`, `município`, `óbito respiratório`, `dia sem chuva`, `precipitação`, `risco de fogo`, `FRP`, `área desmatada`.
 
 ---
 
-## 🛡️ Medidas de Proteção para a População
+## 🔍 Possíveis Análises
 
-Com base nas análises, recomenda-se que **durante os meses de maior risco** (determinados pela combinação entre queimadas e mortalidade):
+Com essa base integrada, você pode explorar:
+- ✅ Séries temporais: há aumento de mortes nos meses com mais queimadas?
+- ✅ Comparação por município: locais mais desmatados apresentam piores indicadores de saúde?
+- ✅ Relação clima-incêndio: como dias sem chuva e risco de fogo impactam os padrões observados?
+- ✅ Análises espaciais: mapeamento por região para identificar hotspots críticos de risco ambiental e sanitário.
+- ✅ Modelagem: regressões para testar correlação entre variáveis ambientais e saúde.
+- ✅ Correlação entre aumento de queimadas e picos de óbitos por doenças respiratórias.
+- ✅ Comparação de períodos de seca vs. chuva para verificar variação em mortalidade (período seco mostrou até 3x mais internações​).
+- ✅ Relação entre área desmatada acumulada e aumento progressivo de queimadas e impactos na saúde.
+- ✅ Análise espacial: municípios mais afetados vs. menos afetados, normalizando pelo percentual desmatado em relação à área total.
+- ✅ Comparação entre municípios urbanos (ex: Manaus) e rurais, considerando alertas ambientais e índices de poluição local​.
+- ✅ Exploração do impacto das condições climáticas (dias sem chuva, risco de fogo) nas séries temporais de mortalidade.
+- ✅ Sugestão para futuros modelos preditivos: uso de séries temporais para prever mortalidade a partir de variáveis ambientais.
 
 ---
 
-## 🧪 Metodologia
+## 💡 Inspiração do Estudo Original
 
-- Pré-processamento de dados com `pandas` e `datetime`.
-- Filtragem de registros respiratórios (CID-10: J00 a J99).
-- Conversão e padronização de campos temporais e geográficos.
-- Análise estatística e visual com Python (`matplotlib`, `seaborn`, `folium`).
+O estudo acadêmico analisado destacou:
+- Queimadas aumentam material particulado no ar, elevando internações e mortes por doenças pulmonares.
+- Períodos secos (estiagem) agravam drasticamente os efeitos.
+- Grupos vulneráveis (idosos, crianças, pessoas com doenças pré-existentes) são os mais afetados.
+- A integração de dados ambientais e de saúde pública é essencial para orientar políticas e alertas preventivos.
 
 ---
 
-## 👩‍🔬 Autoria
+## 📈 Próximos Passos
 
-- **Maria Isabel Nicolau (Bel)**  
-- Projeto para Ciência de Dados Ambiental e Saúde Pública
+
+- ✔ Explorar agrupamentos (clustering) para identificar padrões ocultos.
+- ✔ Gerar gráficos e mapas geográficos interativos.
+- ✔ Testar modelos preditivos simples com base nos dados históricos.
+
+---
+
