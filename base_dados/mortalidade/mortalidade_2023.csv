@@ -1,64 +1,35 @@
-"Municipio";"Janeiro";"Fevereiro";"Marco";"Abril";"Maio";"Junho";"Julho";"Agosto";"Setembro";"Outubro";"Novembro";"Dezembro";"Total"
-"130002 ALVARAES";-;-;-;-;2;2;1;1;-;-;-;2;8
-"130006 AMATURA";-;-;1;-;-;-;-;-;-;-;-;1;2
-"130008 ANAMA";-;-;-;-;-;-;2;-;-;-;1;1;4
-"130010 ANORI";-;1;-;1;1;-;-;1;-;1;-;-;5
-"130014 APUI";-;2;-;-;-;-;-;-;-;-;-;-;2
-"130020 ATALAIA DO NORTE";-;-;-;-;-;2;-;-;-;2;-;2;6
-"130030 AUTAZES";-;-;-;3;1;2;1;-;1;1;1;1;11
-"130040 BARCELOS";4;-;1;-;-;1;3;2;-;2;-;-;13
-"130050 BARREIRINHA";2;1;2;-;-;4;1;2;3;-;1;2;18
-"130060 BENJAMIN CONSTANT";-;-;3;3;-;1;1;4;4;1;2;1;20
-"130063 BERURI";1;2;1;2;1;-;1;-;-;-;-;1;9
-"130068 BOA VISTA DO RAMOS";-;2;1;-;1;1;-;-;-;-;-;2;7
-"130070 BOCA DO ACRE";1;1;2;3;1;4;-;3;2;1;5;-;23
-"130080 BORBA";1;-;2;2;1;1;1;3;1;-;-;-;12
-"130083 CAAPIRANGA";1;-;-;-;-;-;-;-;-;-;1;-;2
-"130090 CANUTAMA";-;-;-;-;1;1;-;1;-;-;-;-;3
-"130100 CARAUARI";2;1;-;1;-;-;2;-;-;1;-;-;7
-"130110 CAREIRO";3;-;-;1;4;-;2;-;-;-;2;2;14
-"130115 CAREIRO DA VARZEA";2;-;-;1;-;-;-;-;-;-;-;-;3
-"130120 COARI";2;1;4;5;3;7;5;2;5;7;4;5;50
-"130130 CODAJAS";-;1;-;-;2;2;-;1;-;-;1;1;8
-"130140 EIRUNEPE";4;1;2;-;1;2;3;2;-;2;-;1;18
-"130150 ENVIRA";-;1;1;-;1;1;1;1;1;-;2;2;11
-"130160 FONTE BOA";-;-;-;1;2;-;-;1;1;-;1;1;7
-"130165 GUAJARA";3;2;1;-;-;-;-;1;1;-;-;-;8
-"130170 HUMAITA";1;2;3;-;1;2;2;3;2;2;1;7;26
-"130180 IPIXUNA";1;-;1;1;-;-;2;-;-;-;-;1;6
-"130185 IRANDUBA";2;2;1;2;1;4;2;7;-;2;2;3;28
-"130190 ITACOATIARA";3;4;6;4;4;5;3;3;4;3;1;4;44
-"130195 ITAMARATI";-;-;-;1;-;-;-;-;-;1;1;-;3
-"130200 ITAPIRANGA";-;-;3;1;-;1;2;1;-;-;-;-;8
-"130210 JAPURA";-;-;-;1;-;1;1;1;-;-;-;-;4
-"130220 JURUA";-;-;-;1;-;-;1;-;-;-;-;1;3
-"130230 JUTAI";-;-;-;1;3;1;-;3;-;1;-;-;9
-"130240 LABREA";-;1;2;3;3;2;2;-;-;1;3;1;18
-"130250 MANACAPURU";7;5;1;5;2;4;4;4;3;5;9;2;51
-"130255 MANAQUIRI";1;-;1;1;-;-;2;-;1;2;-;-;8
-"130260 MANAUS";88;109;93;90;109;122;111;106;78;79;85;72;1142
-"130270 MANICORE";1;2;3;1;1;2;2;-;1;-;2;1;16
-"130280 MARAA";-;-;1;1;-;3;1;-;1;2;-;-;9
-"130290 MAUES";4;2;5;8;7;4;3;3;-;2;-;3;41
-"130300 NHAMUNDA";-;-;1;-;2;2;2;2;-;1;-;1;11
-"130310 NOVA OLINDA DO NORTE";-;2;2;2;1;4;2;2;2;3;1;1;22
-"130320 NOVO AIRAO";1;-;1;-;1;2;2;-;1;-;-;-;8
-"130330 NOVO ARIPUANA";-;-;-;-;2;1;-;2;1;-;-;1;7
-"130340 PARINTINS";5;2;3;2;7;2;10;5;4;5;4;2;51
-"130350 PAUINI";-;1;-;-;-;1;1;2;-;-;-;-;5
-"130353 PRESIDENTE FIGUEIREDO";-;1;1;1;1;1;-;1;1;1;2;2;12
-"130356 RIO PRETO DA EVA";2;1;3;2;2;2;2;-;1;1;2;1;19
-"130360 SANTA ISABEL DO RIO NEGRO";-;-;2;1;1;2;1;1;1;-;-;-;9
-"130370 SANTO ANTONIO DO ICA";4;1;3;1;1;1;1;2;1;1;-;2;18
-"130380 SAO GABRIEL DA CACHOEIRA";2;-;5;17;7;5;3;8;8;3;1;5;64
-"130390 SAO PAULO DE OLIVENCA";1;-;1;1;1;-;3;-;2;-;-;-;9
-"130395 SAO SEBASTIAO DO UATUMA";-;1;1;-;1;1;-;-;-;-;1;-;5
-"130400 SILVES";-;-;-;-;-;-;1;-;-;-;-;-;1
-"130406 TABATINGA";4;1;-;2;4;-;1;6;5;5;3;3;34
-"130410 TAPAUA";-;1;-;-;-;-;3;1;-;1;-;-;6
-"130420 TEFE";3;4;6;3;3;4;5;4;7;1;1;1;42
-"130423 TONANTINS";1;-;-;-;-;1;-;1;1;-;1;-;5
-"130426 UARINI";-;-;-;-;1;1;1;-;-;2;1;-;6
-"130430 URUCARA";-;3;-;-;1;2;-;-;-;-;1;1;8
-"130440 URUCURITUBA";-;-;-;-;1;-;-;1;-;1;2;-;5
-"Total";157;161;170;176;190;214;200;194;144;143;145;140;2034
+"Categoria CID-10";"Janeiro";"Fevereiro";"Mar�o";"Abril";"Maio";"Junho";"Julho";"Agosto";"Setembro";"Outubro";"Novembro";"Dezembro";"Total"
+"J04   Laringite e traqueite agudas";-;-;-;-;-;1;-;-;-;1;-;-;2
+"J06   Infecc agudas vias aereas super loc mult NE";-;-;1;-;-;-;-;1;-;-;-;-;2
+"J10   Influenza dev outro virus influenza ident";3;2;6;6;2;4;1;3;-;-;-;-;27
+"J11   Influenza dev virus nao identificado";3;3;3;5;1;3;1;1;-;-;1;1;22
+"J12   Pneumonia viral NCOP";1;-;1;-;1;1;4;1;4;6;-;1;20
+"J15   Pneumonia bacter NCOP";17;26;17;24;22;38;28;18;27;18;11;13;259
+"J18   Pneumonia p/microorg NE";25;29;23;28;33;34;36;39;16;20;32;21;336
+"J21   Bronquiolite aguda";-;-;-;-;4;2;2;1;1;1;-;-;11
+"J22   Infecc agudas NE das vias aereas infer";-;1;-;-;1;1;-;-;-;-;-;1;4
+"J34   Outr transt do nariz e dos seios paranasais";-;1;-;-;-;-;-;-;-;-;-;-;1
+"J36   Abscesso periamigdaliano";-;-;-;-;-;-;-;-;-;-;-;1;1
+"J39   Outr doenc das vias aereas super";-;-;1;-;-;-;-;-;-;-;-;-;1
+"J42   Bronquite cronica NE";-;-;-;-;-;-;-;-;1;-;-;-;1
+"J43   Enfisema";2;1;3;1;1;2;1;-;2;3;4;1;21
+"J44   Outr doenc pulmonares obstrutivas cronicas";18;25;18;13;17;23;15;20;8;13;22;14;206
+"J45   Asma";1;-;1;2;2;1;1;-;3;-;1;-;12
+"J46   Estado de mal asmatico";-;-;-;-;-;-;-;-;-;-;-;1;1
+"J47   Bronquectasia";-;-;-;1;-;-;1;-;-;-;1;-;3
+"J60   Pneumoconiose dos mineiros de carvao";-;-;-;-;-;-;-;-;-;-;1;-;1
+"J67   Pneumonite hipersensibilid dev poeiras org";1;-;-;-;-;-;-;-;-;-;-;-;1
+"J68   Afecc resp dev inal prod quim gas fumac vap";2;-;1;-;-;-;-;-;-;-;-;-;3
+"J69   Pneumonite dev solidos e liquidos";1;6;3;-;7;3;4;4;2;6;3;6;45
+"J80   Sindr do desconforto respirat do adulto";-;2;2;-;2;-;1;1;-;3;2;2;15
+"J81   Edema pulmonar NE de outr form";3;2;1;2;2;-;1;2;2;-;-;-;15
+"J84   Outr doenc pulmonares intersticiais";5;7;6;4;6;6;6;8;7;2;5;3;65
+"J85   Abscesso do pulmao e do mediastino";1;-;1;1;1;-;-;-;1;1;-;1;7
+"J86   Piotorax";-;1;-;-;-;-;-;-;-;-;-;-;1
+"J90   Derrame pleural NCOP";2;1;-;1;2;-;3;1;-;2;1;-;13
+"J93   Pneumotorax";-;-;-;-;2;1;-;4;-;1;-;1;9
+"J94   Outr afeccoes pleurais";-;-;-;1;-;-;-;-;-;-;-;-;1
+"J96   Insuf respirat NCOP";2;-;1;-;3;2;3;2;-;-;1;3;17
+"J98   Outr transt respirat";1;2;4;1;-;-;3;-;4;2;-;2;19
+"Total";88;109;93;90;109;122;111;106;78;79;85;72;1142
+

@@ -1,0 +1,122 @@
+ANO,Categoria CID-10,Janeiro,Fevereiro,Abril,Maio,Junho,Julho,Agosto,Setembro,Outubro,Novembro,Dezembro
+2020,J01   Sinusite aguda,-,-,-,-,1,-,-,-,-,-,-
+2020,J06   Infecc agudas vias aereas super loc mult NE,1,-,6,-,-,-,-,-,-,-,-
+2020,J11   Influenza dev virus nao identificado,-,2,6,1,1,-,-,2,1,-,2
+2020,J12   Pneumonia viral NCOP,-,-,53,38,2,2,-,1,3,-,2
+2020,J15   Pneumonia bacter NCOP,16,9,12,10,9,7,6,9,8,12,9
+2020,J18   Pneumonia p/microorg NE,16,18,83,45,10,13,22,16,21,16,23
+2020,J21   Bronquiolite aguda,-,1,2,1,-,-,-,2,-,-,-
+2020,J22   Infecc agudas NE das vias aereas infer,-,-,-,-,-,-,1,-,-,-,-
+2020,J38   Doenc das cordas vocais e da laringe NCOP,-,-,-,-,-,-,-,-,-,-,1
+2020,J39   Outr doenc das vias aereas super,-,2,-,1,-,-,-,-,-,-,-
+2020,J40   Bronquite NE como aguda ou cronica,-,-,-,-,1,-,-,-,-,-,-
+2020,J43   Enfisema,1,-,6,3,2,2,3,3,-,-,2
+2020,J44   Outr doenc pulmonares obstrutivas cronicas,20,21,16,9,10,7,9,12,11,7,13
+2020,J45   Asma,-,1,5,-,-,-,-,-,-,1,1
+2020,J46   Estado de mal asmatico,1,-,-,-,-,-,-,-,-,-,-
+2020,J47   Bronquectasia,1,-,-,-,-,-,1,1,-,-,1
+2020,J64   Pneumoconiose NE,-,-,-,-,-,1,-,-,-,-,-
+2020,J67   Pneumonite hipersensibilid dev poeiras org,-,1,-,-,-,-,-,-,-,-,-
+2020,J69   Pneumonite dev solidos e liquidos,3,6,5,2,-,5,5,2,5,2,2
+2020,J80   Sindr do desconforto respirat do adulto,-,-,76,22,1,-,-,1,2,-,-
+2020,J81   Edema pulmonar NE de outr form,-,2,-,1,1,-,-,-,2,-,-
+2020,J84   Outr doenc pulmonares intersticiais,4,2,11,4,3,-,3,5,2,4,-
+2020,J86   Piotorax,-,-,-,1,-,-,1,-,-,-,2
+2020,J90   Derrame pleural NCOP,2,1,2,-,-,2,-,1,-,-,2
+2020,J93   Pneumotorax,1,-,-,-,1,-,-,-,-,-,-
+2020,J96   Insuf respirat NCOP,1,-,14,4,1,-,3,-,3,-,2
+2020,J98   Outr transt respirat,3,2,26,28,1,6,4,8,3,4,4
+2021,J04   Laringite e traqueite agudas,-,-,-,-,-,-,-,-,1,-,-
+2021,J06   Infecc agudas vias aereas super loc mult NE,-,-,-,-,-,1,-,-,-,-,2
+2021,J10   Influenza dev outro virus influenza ident,2,-,-,-,-,-,-,-,-,-,20
+2021,J11   Influenza dev virus nao identificado,11,6,1,1,-,-,2,3,-,-,9
+2021,J12   Pneumonia viral NCOP,99,35,1,4,-,-,-,-,2,-,2
+2021,J15   Pneumonia bacter NCOP,15,11,12,11,9,12,7,14,21,13,29
+2021,J18   Pneumonia p/microorg NE,62,33,18,15,24,19,21,17,22,12,44
+2021,J21   Bronquiolite aguda,1,-,-,-,-,-,1,-,1,1,-
+2021,J22   Infecc agudas NE das vias aereas infer,2,2,1,-,-,-,-,-,-,1,-
+2021,J32   Sinusite cronica,-,-,-,-,-,-,-,1,1,-,-
+2021,J38   Doenc das cordas vocais e da laringe NCOP,-,-,-,-,-,-,-,-,-,-,1
+2021,J39   Outr doenc das vias aereas super,-,-,-,-,-,-,1,-,-,-,2
+2021,J40   Bronquite NE como aguda ou cronica,-,-,-,-,-,-,-,1,-,-,-
+2021,J41   Bronquite cronica simples e a mucopurulenta,1,-,-,-,-,-,-,-,-,-,-
+2021,J43   Enfisema,3,2,3,-,1,1,5,8,6,1,2
+2021,J44   Outr doenc pulmonares obstrutivas cronicas,21,11,8,10,7,14,6,15,7,12,18
+2021,J45   Asma,3,-,-,1,-,2,2,1,-,1,3
+2021,J47   Bronquectasia,-,-,-,1,-,1,-,1,-,-,2
+2021,J62   Pneumoconiose dev poeira que cont silica,-,-,-,-,-,-,1,-,-,-,-
+2021,J67   Pneumonite hipersensibilid dev poeiras org,-,-,-,-,-,1,-,-,-,-,-
+2021,J69   Pneumonite dev solidos e liquidos,3,2,2,2,1,5,7,4,1,3,5
+2021,J70   Afeccoes respirat dev outr agentes externos,1,-,-,-,-,-,-,-,-,-,-
+2021,J80   Sindr do desconforto respirat do adulto,9,2,-,-,1,1,-,-,-,2,-
+2021,J81   Edema pulmonar NE de outr form,2,-,-,-,1,1,1,1,3,1,-
+2021,J82   Eosinofilia pulmonar NCOP,-,-,-,-,1,-,-,-,-,-,-
+2021,J84   Outr doenc pulmonares intersticiais,4,7,2,4,4,3,3,9,3,7,10
+2021,J85   Abscesso do pulmao e do mediastino,-,-,-,-,-,1,2,-,-,-,-
+2021,J86   Piotorax,-,-,-,1,-,-,1,1,-,-,-
+2021,J90   Derrame pleural NCOP,1,1,1,2,-,-,2,1,1,1,1
+2021,J93   Pneumotorax,-,-,-,2,-,2,-,-,-,-,2
+2021,J96   Insuf respirat NCOP,16,6,1,2,1,-,1,2,2,2,2
+2021,J98   Outr transt respirat,76,29,3,5,1,-,-,1,1,-,3
+2022,J01   Sinusite aguda,1,-,-,-,-,-,-,-,-,-,-
+2022,J03   Amigdalite aguda,-,1,-,-,-,1,-,-,-,-,-
+2022,J04   Laringite e traqueite agudas,-,1,-,-,-,-,-,-,1,-,-
+2022,J06   Infecc agudas vias aereas super loc mult NE,-,-,1,-,1,-,-,-,-,-,-
+2022,J10   Influenza dev outro virus influenza ident,11,3,-,3,8,8,4,4,2,-,-
+2022,J11   Influenza dev virus nao identificado,6,1,2,3,1,3,1,1,2,6,1
+2022,J12   Pneumonia viral NCOP,3,-,1,1,2,2,-,1,1,-,2
+2022,J15   Pneumonia bacter NCOP,25,16,20,14,20,19,12,9,14,14,16
+2022,J18   Pneumonia p/microorg NE,39,22,17,23,26,34,20,18,15,20,32
+2022,J20   Bronquite aguda,-,-,-,-,-,-,-,-,-,-,-
+2022,J21   Bronquiolite aguda,-,1,-,2,3,1,-,-,-,1,-
+2022,J22   Infecc agudas NE das vias aereas infer,1,-,-,-,-,-,-,-,-,1,-
+2022,J39   Outr doenc das vias aereas super,-,-,1,-,-,-,-,-,-,-,-
+2022,J43   Enfisema,2,4,2,4,4,3,6,2,1,3,1
+2022,J44   Outr doenc pulmonares obstrutivas cronicas,25,10,13,11,12,16,20,15,20,15,12
+2022,J45   Asma,1,-,4,1,2,-,2,-,2,-,2
+2022,J46   Estado de mal asmatico,-,-,-,-,-,-,-,-,-,-,-
+2022,J47   Bronquectasia,-,-,-,1,1,1,-,-,-,-,-
+2022,J68   Afecc resp dev inal prod quim gas fumac vap,-,-,1,-,1,-,-,1,-,-,-
+2022,J69   Pneumonite dev solidos e liquidos,9,4,4,4,2,3,4,4,3,3,6
+2022,J80   Sindr do desconforto respirat do adulto,2,1,1,-,-,1,2,-,-,1,1
+2022,J81   Edema pulmonar NE de outr form,1,-,-,-,-,1,1,1,1,2,-
+2022,J84   Outr doenc pulmonares intersticiais,1,5,6,1,3,5,4,1,3,8,2
+2022,J85   Abscesso do pulmao e do mediastino,2,-,-,-,2,-,-,1,2,-,-
+2022,J86   Piotorax,-,2,1,-,1,2,-,-,1,-,1
+2022,J90   Derrame pleural NCOP,2,1,1,1,3,4,1,1,1,-,2
+2022,J93   Pneumotorax,-,-,-,1,-,-,-,-,3,-,1
+2022,J94   Outr afeccoes pleurais,-,1,-,-,-,1,-,-,-,-,-
+2022,J96   Insuf respirat NCOP,1,-,-,1,4,2,2,-,-,-,1
+2022,J98   Outr transt respirat,3,4,1,7,2,-,5,3,3,1,1
+2023,J04   Laringite e traqueite agudas,-,-,-,-,1,-,-,-,1,-,-
+2023,J06   Infecc agudas vias aereas super loc mult NE,-,-,-,-,-,-,1,-,-,-,-
+2023,J10   Influenza dev outro virus influenza ident,3,2,6,2,4,1,3,-,-,-,-
+2023,J11   Influenza dev virus nao identificado,3,3,5,1,3,1,1,-,-,1,1
+2023,J12   Pneumonia viral NCOP,1,-,-,1,1,4,1,4,6,-,1
+2023,J15   Pneumonia bacter NCOP,17,26,24,22,38,28,18,27,18,11,13
+2023,J18   Pneumonia p/microorg NE,25,29,28,33,34,36,39,16,20,32,21
+2023,J21   Bronquiolite aguda,-,-,-,4,2,2,1,1,1,-,-
+2023,J22   Infecc agudas NE das vias aereas infer,-,1,-,1,1,-,-,-,-,-,1
+2023,J34   Outr transt do nariz e dos seios paranasais,-,1,-,-,-,-,-,-,-,-,-
+2023,J36   Abscesso periamigdaliano,-,-,-,-,-,-,-,-,-,-,1
+2023,J39   Outr doenc das vias aereas super,-,-,-,-,-,-,-,-,-,-,-
+2023,J42   Bronquite cronica NE,-,-,-,-,-,-,-,1,-,-,-
+2023,J43   Enfisema,2,1,1,1,2,1,-,2,3,4,1
+2023,J44   Outr doenc pulmonares obstrutivas cronicas,18,25,13,17,23,15,20,8,13,22,14
+2023,J45   Asma,1,-,2,2,1,1,-,3,-,1,-
+2023,J46   Estado de mal asmatico,-,-,-,-,-,-,-,-,-,-,1
+2023,J47   Bronquectasia,-,-,1,-,-,1,-,-,-,1,-
+2023,J60   Pneumoconiose dos mineiros de carvao,-,-,-,-,-,-,-,-,-,1,-
+2023,J67   Pneumonite hipersensibilid dev poeiras org,1,-,-,-,-,-,-,-,-,-,-
+2023,J68   Afecc resp dev inal prod quim gas fumac vap,2,-,-,-,-,-,-,-,-,-,-
+2023,J69   Pneumonite dev solidos e liquidos,1,6,-,7,3,4,4,2,6,3,6
+2023,J80   Sindr do desconforto respirat do adulto,-,2,-,2,-,1,1,-,3,2,2
+2023,J81   Edema pulmonar NE de outr form,3,2,2,2,-,1,2,2,-,-,-
+2023,J84   Outr doenc pulmonares intersticiais,5,7,4,6,6,6,8,7,2,5,3
+2023,J85   Abscesso do pulmao e do mediastino,1,-,1,1,-,-,-,1,1,-,1
+2023,J86   Piotorax,-,1,-,-,-,-,-,-,-,-,-
+2023,J90   Derrame pleural NCOP,2,1,1,2,-,3,1,-,2,1,-
+2023,J93   Pneumotorax,-,-,-,2,1,-,4,-,1,-,1
+2023,J94   Outr afeccoes pleurais,-,-,1,-,-,-,-,-,-,-,-
+2023,J96   Insuf respirat NCOP,2,-,-,3,2,3,2,-,-,1,3
+2023,J98   Outr transt respirat,1,2,1,-,-,3,-,4,2,-,2

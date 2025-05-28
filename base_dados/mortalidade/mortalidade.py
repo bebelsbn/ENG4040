@@ -1,45 +1,40 @@
 import pandas as pd
 import glob
 
-# Pasta onde estão os arquivos
+# Caminho dos arquivos de mortalidade
 mortalidade_path = 'base_dados/mortalidade'
 
-# Lista para guardar os DataFrames
+# Lista para armazenar DataFrames
 mortalidade_list = []
 
-# Ler e empilhar todos os arquivos mortalidade_*.csv
+# Colunas desejadas
+colunas_desejadas = ['Categoria CID-10', 'Janeiro', 'Fevereiro', 'Março', 'Abril',
+                     'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro',
+                     'Dezembro']
+
+# Processar todos os arquivos
 for file in glob.glob(f'{mortalidade_path}/mortalidade_*.csv'):
-    year = int(file[-8:-4])
-    print(f"Lendo {file} (ano {year})")
+    ano = int(file[-8:-4])
+    print(f"🔄 Lendo {file} (ano {ano})")
+
     df = pd.read_csv(file, sep=';', encoding='latin1')
 
-    # Limpar e padronizar colunas
+    # Padronizar nome das colunas
     df.columns = [col.strip().replace('"', '').replace('Munic�pio', 'Municipio').replace('Marco', 'Março') for col in df.columns]
 
-    if 'Municipio' not in df.columns:
-        raise ValueError(f"⚠ Erro: coluna 'Municipio' não encontrada no arquivo {file}.")
+    # Selecionar apenas as colunas desejadas
+    if 'Categoria CID-10' not in df.columns:
+        raise ValueError(f"⚠ Erro: coluna 'Categoria CID-10' não encontrada no arquivo {file}")
 
-    df['Municipio'] = df['Municipio'].str.strip()
-    df['Codigo_IBGE'] = df['Municipio'].str.split(' ').str[0]
-    df['Municipio_Nome'] = df['Municipio'].str.split(' ').str[1:].str.join(' ').str.upper()
+    colunas_presentes = [col for col in colunas_desejadas if col in df.columns]
+    df_filtrado = df[colunas_presentes].copy()
+    df_filtrado.insert(0, 'ANO', ano)
 
-    # Derreter para formato longo
-    df_melt = df.melt(id_vars=['Codigo_IBGE', 'Municipio_Nome'], 
-                      value_vars=['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
-                      var_name='Mes', value_name='Obitos')
-    df_melt['Ano'] = year
-    mortalidade_list.append(df_melt)
+    mortalidade_list.append(df_filtrado)
 
 # Concatenar tudo
 mortalidade_unificada = pd.concat(mortalidade_list, ignore_index=True)
 
-# Garantir numérico
-mortalidade_unificada['Obitos'] = pd.to_numeric(mortalidade_unificada['Obitos'], errors='coerce').fillna(0)
-
-# Reordenar colunas
-colunas_finais = ['Ano', 'Mes', 'Codigo_IBGE', 'Municipio_Nome', 'Obitos']
-mortalidade_unificada = mortalidade_unificada[colunas_finais]
-
-# Exportar para CSV
-mortalidade_unificada.to_csv('mortalidade_unificada.csv', index=False, encoding='utf-8')
-print("✅ Arquivo 'mortalidade_unificada.csv' criado com sucesso!")
+# Salvar como CSV
+mortalidade_unificada.to_csv('PlanilhaUnificada/mortalidade_unificada.csv', index=False, encoding='utf-8')
+print("✅ Planilha unificada criada com sucesso!")
