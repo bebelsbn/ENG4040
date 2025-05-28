@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Caminho do arquivo CSV
-caminho_arquivo = "TratamentoDados/planilha_unificada.csv"  # substitua pelo nome real
+caminho_arquivo = "planilha_unificada.csv"  # substitua pelo nome real
 
 # Lê o CSV
 df = pd.read_csv(caminho_arquivo, sep=";")  # ajuste o separador se necessário
