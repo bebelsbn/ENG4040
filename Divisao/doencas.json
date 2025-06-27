@@ -1,0 +1,61 @@
+[
+  {
+    "categoria": "Alta Sensibilidade",
+    "dados": [
+      {
+        "cid": "J40–J44",
+        "descricao": "Bronquite, bronquite crônica, enfisema e DPOC"
+      },
+      {
+        "cid": "J45–J47",
+        "descricao": "Asma e estado de mal asmático"
+      },
+      {
+        "cid": "J60–J70",
+        "descricao": "Pneumopatias devidas a agentes externos (poeiras, fumaça, gases)"
+      }
+    ]
+  },
+  {
+    "categoria": "Média Sensibilidade",
+    "dados": [
+      {
+        "cid": "J09–J18",
+        "descricao": "Gripe, pneumonia e outras infecções pulmonares"
+      },
+      {
+        "cid": "J20–J22",
+        "descricao": "Infecções agudas das vias respiratórias inferiores"
+      }
+    ]
+  },
+  {
+    "categoria": "Baixa Sensibilidade",
+    "dados": [
+      {
+        "cid": "J00–J06",
+        "descricao": "Infecções agudas das vias aéreas superiores"
+      },
+      {
+        "cid": "J30–J39",
+        "descricao": "Rinites, faringites, laringites e outras doenças respiratórias superiores"
+      },
+      {
+        "cid": "J80–J84",
+        "descricao": "Doenças pulmonares intersticiais crônicas"
+      },
+      {
+        "cid": "J85–J86",
+        "descricao": "Abscesso pulmonar e empiema"
+      },
+      {
+        "cid": "J90–J94",
+        "descricao": "Doenças da pleura (derrame pleural, pneumotórax etc.)"
+      },
+      {
+        "cid": "J95–J99",
+        "descricao": "Outras doenças respiratórias não classificadas em outro local"
+      }
+    ]
+  }
+]
