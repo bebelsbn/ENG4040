@@ -3,9 +3,9 @@ import pandas as pd
 # Lista de arquivos e seus separadores
 arquivos = {
     "planilha_unificada.csv": ";",  # separador usado na planilha unificada
-    "Sprint03/Divisao/planilha_alta.csv": ",",
-    "Sprint03/Divisao/planilha_media.csv": ",",
-    "Sprint03/Divisao/planilha_baixa.csv": ","
+    "Divisao/planilha_alta.csv": ",",
+    "Divisao/planilha_media.csv": ",",
+    "Divisao/planilha_baixa.csv": ","
 }
 
 # Itera sobre os arquivos e exibe as informações

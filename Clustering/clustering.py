@@ -1,12 +1,5 @@
 # =================== ANÁLISE DOS RESULTADOS ===================
 
-# Por que usar clustering neste trabalho?
-# O algoritmo de clustering KMeans foi aplicado com o objetivo de identificar padrões ocultos
-# entre variáveis ambientais e os óbitos por doenças respiratórias.
-# Isso é importante porque, ao analisarmos os dados de forma agregada, as correlações eram fracas.
-# A segmentação via clustering permite revelar grupos com características distintas,
-# o que pode orientar análises mais direcionadas e modelos preditivos mais eficazes.
-
 # O que os gráficos mostram?
 # Cada gráfico salvo na pasta Clustering/imagem mostra a separação dos dados em 3 clusters
 # considerando as duas primeiras variáveis padronizadas: OBITOS e AREA_DESMATADA_KM2.
