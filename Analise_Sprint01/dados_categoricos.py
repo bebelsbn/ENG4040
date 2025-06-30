@@ -1,3 +1,5 @@
+# Aanlise de Dados Categóricos por Município usada na Sprint 01
+
 import pandas as pd
 
 # Carregar os dados
