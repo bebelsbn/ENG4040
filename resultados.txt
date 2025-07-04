@@ -1,0 +1,25 @@
+
+
+Modelo Final Selecionado:
+
+Após a análise dos diferentes modelos testados (Regressão Linear, Random Forest, Árvore de Regressão e XGBoost), em diferentes cenários (Alta, Média e Baixa Sensibilidade, além da base com todas as doenças), a escolha do modelo final considerou os seguintes critérios:
+
+1. Desempenho Geral
+   O Random Forest apresentou, em média, os menores valores de RMSE e melhores valores de R² nas bases de sensibilidade alta e média, superando a Regressão Linear em todos os cenários com significância estatística (teste t pareado com p-valor < 0.05).
+
+2. Confiabilidade dos Resultados
+   A análise dos intervalos de confiança por bootstrap mostrou que o Random Forest possui um intervalo mais estreito e valores mais estáveis, indicando maior robustez.
+
+3. Capacidade de Generalização
+   O Random Forest também teve melhor desempenho no conjunto com todas as doenças agrupadas (clusterizado), mantendo consistência nas métricas.
+
+4. Importância das Variáveis
+   A análise de importância das variáveis revelou que o Random Forest captura de forma mais expressiva os efeitos das variáveis ambientais sobre os óbitos, sendo mais sensível a interações complexas entre os fatores.
+
+5. Justificativa Prática
+   Embora a Regressão Linear ofereça maior interpretabilidade, ela não foi capaz de modelar bem a complexidade das relações, resultando em coeficientes com baixa explicação (R² negativo em muitos casos). Já o Random Forest, embora menos interpretável, compensa com melhor acurácia e capacidade de capturar não-linearidades.
+
+Conclusão:
+
+O modelo **Random Forest com pré-processamento (imputação + normalização)** é o mais recomendado para o problema de predição de óbitos relacionados a doenças respiratórias, considerando tanto as divisões por sensibilidade quanto a base clusterizada.
+
