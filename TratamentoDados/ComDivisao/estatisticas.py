@@ -1,3 +1,28 @@
+# -------------------------------------------------------------------------------------------
+# ANÁLISE EXPLORATÓRIA DAS PLANILHAS
+#
+# Objetivo:
+# Realizar uma análise estatística descritiva das variáveis numéricas presentes nas
+# planilhas utilizadas no projeto, incluindo avaliação de valores ausentes (missing),
+# medidas de tendência central, dispersão e percentis.
+#
+# Importância no trabalho:
+# Esta etapa é fundamental para compreender a qualidade dos dados, identificar possíveis
+# problemas (como muitos valores faltantes, outliers ou variáveis constantes), e orientar
+# decisões nas etapas de pré-processamento e modelagem.
+#
+# Etapas realizadas:
+# - Leitura de diferentes planilhas com separadores distintos.
+# - Conversão robusta das colunas numéricas (tratando erros e valores não numéricos).
+# - Cálculo das principais estatísticas: média, mediana, desvio padrão, variância, 
+#   percentis, contagem e proporção de valores ausentes.
+# - Impressão organizada das tabelas de estatísticas para cada conjunto de dados.
+#
+# Observações:
+# - As estatísticas são arredondadas para duas casas decimais para facilitar leitura.
+# - O código lida com exceções de forma robusta, informando caso um arquivo esteja ausente.
+# -------------------------------------------------------------------------------------------
+
 import pandas as pd
 
 # Lista de arquivos e seus separadores

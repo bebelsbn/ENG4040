@@ -1,3 +1,24 @@
+# -------------------------------------------------------------------------------------------
+# ANÁLISE DE IMPORTÂNCIA DAS VARIÁVEIS (POR MODELO)
+#
+# Objetivo:
+# Investigar quais fatores ambientais têm maior impacto na predição do número de óbitos 
+# por doenças respiratórias, comparando dois algoritmos: Regressão Linear e Random Forest.
+#
+# Importância no trabalho:
+# Essa análise ajuda a entender quais variáveis ambientais são mais relevantes em cada grupo 
+# de sensibilidade (Alta, Média, Baixa, e Geral). Ela serve de base para:
+#  - Justificar a escolha de variáveis nos modelos finais,
+#  - Identificar possíveis variáveis descartáveis ou altamente correlacionadas,
+#  - Aumentar a interpretabilidade dos modelos preditivos usados.
+#
+# Etapas realizadas:
+# - Carregamento das bases segmentadas (Alta, Média, Baixa) e unificada.
+# - Preenchimento de valores ausentes com a média.
+# - Ajuste de modelos Linear Regression e Random Forest.
+# - Exibição dos coeficientes (linear) e importâncias (floresta) para comparação.
+# -------------------------------------------------------------------------------------------
+
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression

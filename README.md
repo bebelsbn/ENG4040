@@ -20,7 +20,6 @@ ano;Categoria CID-10;mes;OBITOS;AREA\_DESMATADA\_KM2;FRP;
 RISCOFOGO;PRECIPITACAO;DIASEMCHUVA;pm2.5\_atm;QUALIDADE\_AR\_CLASSIFICADA
 ```
 
-
 ## Etapas e Análises Realizadas
 
 ### Pré-processamento e Segmentações
@@ -46,7 +45,7 @@ Avaliação com:
 
 **Comparações feitas com e sem pré-processamento** (normalização + imputação).
 
-###  Análise Estatística
+### Análise Estatística
 
 Para cada grupo (Alta, Média, Baixa Sensibilidade e Todas as Doenças), foram realizados:
 
@@ -55,14 +54,12 @@ Para cada grupo (Alta, Média, Baixa Sensibilidade e Todas as Doenças), foram r
 
 **Exemplo – Alta Sensibilidade:**
 ```
-
 Intervalo de Confiança (95%) para RMSE:
-LR: \[3.0857, 5.1354]
-RF: \[3.6094, 5.6144]
+LR: [3.0857, 5.1354]
+RF: [3.6094, 5.6144]
 
 Teste t pareado:
 t = -22.29 | p-valor = 0.0000 → diferença significativa
-
 ```
 
 ---
@@ -86,7 +83,6 @@ As doenças com menor erro de previsão (melhor RMSE) foram:
 
 Pneumonias (J12, J15, J18) apresentaram alto erro, sugerindo maior complexidade ou menor correlação com os fatores ambientais utilizados.
 
-
 ## Modelo Final Recomendado
 
 **Modelo Escolhido:** Random Forest com pré-processamento  
@@ -98,7 +94,7 @@ Pneumonias (J12, J15, J18) apresentaram alto erro, sugerindo maior complexidade 
 
 ---
 
-##  Possibilidades de Análise
+## Possibilidades de Análise
 
 - Análise sazonal e de tendência: Padrões cíclicos em meses secos.
 - Importância de variáveis ambientais nas mortes respiratórias.
@@ -114,5 +110,17 @@ A relação entre desmatamento e saúde pública é urgente. Este projeto oferec
 
 - Subsídios para políticas de controle ambiental;
 - Geração de alertas baseados em variáveis críticas;
-- Apoio à atuação de gestores públicos em saúde e meio ambiente.
+- Apoio à atuação de gestores públicos em saúde e meio ambiente. 
 
+---
+
+## 🧾 Conclusão Geral
+
+Com base nas análises realizadas, o projeto comprovou que há uma **associação significativa entre variáveis ambientais e a mortalidade por doenças respiratórias** em Manaus. O modelo **Random Forest com pré-processamento** demonstrou o melhor desempenho preditivo, validado por testes estatísticos rigorosos, como **intervalos de confiança para RMSE** e **testes t pareados**.
+
+Além disso, a separação das doenças por **níveis de sensibilidade** (alta, média, baixa) revelou padrões diferenciados de impacto ambiental, enquanto a **exploração por CID-10** permitiu identificar doenças com alta previsibilidade, como asma e bronquiolite, e outras com comportamento mais complexo, como as pneumonias.
+
+**Principais aprendizados extraídos:**
+- A importância de variáveis como **FRP**, **dias sem chuva** e **partículas PM2.5** na mortalidade.
+- A vantagem da aplicação de técnicas de pré-processamento e validação cruzada para garantir robustez dos modelos.
+- A utilidade da ciência de dados como ferramenta estratégica para **tomada de decisão em saúde pública e meio ambiente**.

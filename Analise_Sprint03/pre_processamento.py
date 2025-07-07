@@ -1,3 +1,27 @@
+i# -------------------------------------------------------------------------------------------
+# AVALIAÇÃO DO IMPACTO DO PRÉ-PROCESSAMENTO NOS MODELOS PREDITIVOS
+#
+# Objetivo:
+# Comparar o desempenho dos modelos de regressão (Linear e Random Forest) com e sem
+# a aplicação de técnicas de pré-processamento (imputação de valores ausentes e 
+# normalização) nos diferentes grupos de doenças respiratórias:
+#   - Alta Sensibilidade
+#   - Média Sensibilidade
+#   - Baixa Sensibilidade
+#   - Todas as Doenças (Clusterizado)
+#
+# Importância no trabalho:
+# Esta análise permite verificar se o pré-processamento melhora a capacidade preditiva
+# dos modelos, contribuindo para decisões mais precisas e robustas. Também justifica a
+# escolha das etapas de preparação dos dados adotadas no pipeline final.
+#
+# Etapas realizadas:
+# - Leitura e limpeza dos dados
+# - Criação de duas versões: com e sem pré-processamento
+# - Treinamento e avaliação dos modelos em ambas as versões
+# - Registro das métricas RMSE e R² para cada cenário
+# -------------------------------------------------------------------------------------------
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split

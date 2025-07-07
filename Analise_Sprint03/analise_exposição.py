@@ -1,3 +1,14 @@
+# -------------------------------------------------------------------
+# ANÁLISE DA INFLUÊNCIA DA EXPOSIÇÃO A PM2.5 NA MORTALIDADE POR DOENÇAS RESPIRATÓRIAS
+# Este script tem como objetivo verificar se há diferença estatisticamente significativa
+# no número de óbitos por doenças respiratórias entre os grupos com baixa e alta exposição
+# ao material particulado fino (PM2.5), com base na recomendação da OMS (25 µg/m³).
+#
+# A análise foi aplicada aos dados do grupo de Alta Sensibilidade, considerados mais vulneráveis.
+# Inclui: tratamento dos dados, separação dos grupos, teste t de comparação de médias,
+# e visualização com boxplot. Essa abordagem contribui para reforçar os achados do projeto
+# sobre a relação entre poluição atmosférica e saúde pública.
+# -------------------------------------------------------------------
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
